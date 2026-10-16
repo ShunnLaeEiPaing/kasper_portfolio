@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kasper Toh | Singapore Real Estate</title>
+  <meta name="description"
+    content="Kasper Toh, Singapore real estate advisor. Selling, buying, upgrading and valuation conversations.">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="shell">
+      <a class="brand" href="#top">KASPER<b>TOH</b></a>
+      <nav>
+        <a href="#sell">Sell</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#videos">Videos</a>
+        <a href="#valuation">Valuation</a>
+        <a href="#about">About</a>
+        <a class="btn" href="https://wa.me/6592221935" target="_blank" rel="noreferrer">Speak with Kasper</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero hero-editorial">
+      <div class="hero-portrait-bg">
+        <img src="assets/photos/kasper.jpeg" alt="Real estate agent" />
+      </div>
+
+      <div class="shell hero-inner reveal">
+        <h1>Sell with a strategy. <em>Move with clarity.</em></h1>
+
+        <p>
+          I help homeowners position their properties to attract serious buyers,
+          negotiate with confidence, and plan what comes next.
+        </p>
+
+        <div class="row">
+          <a class="btn cream" href="#valuation">
+            Find out my property value
+          </a>
+          <a class="btn" href="#portfolio">
+            View my track record
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="proof">
+      <div><b>$2.9M</b><span>Record cluster home transaction</span></div>
+      <div><b>~$6M</b><span>Recent landed sale</span></div>
+      <div><b>HDB to Landed</b><span>Across property segments</span></div>
+    </div>
+    <section class="block light" id="sell">
+      <div class="shell reveal">
+        <div class="head">
+          <div class="head-title">
+            <span class="section-tag">Selling a home</span>
+            <h2>A listing is not a <span>strategy.</span></h2>
+          </div>
+
+          <p>
+            Price, positioning, presentation, distribution, viewings and
+            negotiation must work together. I build a campaign around the
+            buyer you need to reach, not a generic portal listing.
+          </p>
+        </div>
+        <div class="steps">
+          <article>
+            <h3>Price the evidence</h3>
+            <p>Recent transactions, active competition, unit condition, buyer demand and your timeline.</p>
+          </article>
+          <article>
+            <h3>Position the story</h3>
+            <p>The strongest angle, the right buyer and the reasons your home should win attention.</p>
+          </article>
+          <article>
+            <h3>Create demand</h3>
+            <p>Photography, video, portals, social content, agent networks and direct outreach.</p>
+          </article>
+          <article>
+            <h3>Negotiate the close</h3>
+            <p>Qualify intent, compare offers beyond price and protect the outcome through completion.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="block dk" id="portfolio">
+      <div class="shell reveal">
+        <div class="head portfolio-head">
+          <div class="head-title">
+            <span class="section-tag">Selected portfolio</span>
+            <h2>
+              Every transaction
+              <span>has a story.</span>
+            </h2>
+          </div>
+
+          <p>Selected sold, rented and listed properties.</p>
+        </div>
+        <div class="portfolio-carousel">
+          <button class="carousel-btn prev" id="portfolio-prev" aria-label="Previous properties">
+            &#10094;
+          </button>
+
+          <div class="portfolio-viewport">
+            <div class="grid" id="portfolio-list"></div>
+          </div>
+
+          <button class="carousel-btn next" id="portfolio-next" aria-label="Next properties">
+            &#10095;
+          </button>
+        </div>
+
+        <div class="carousel-dots" id="portfolio-dots"></div>
+      </div>
+    </section>
+    <section class="block light" id="videos">
+      <div class="shell reveal">
+        <div class="head">
+          <div class="head-title">
+            <span class="section-tag">Property stories on video</span>
+            <h2>The first viewing can <span>happen online.</span></h2>
+          </div>
+          <p>Video lets buyers understand the space, the location and the story before they step through the door.</p>
+        </div>
+        <div class="vgrid" id="video-list"></div>
+      </div>
+    </section>
+    <section class="block valuation" id="valuation">
+      <div class="shell val reveal">
+
+        <div class="head">
+          <div class="head-title">
+            <span class="section-tag">Indicative property valuation</span>
+          </div>
+
+          <h2>What could your property sell for today?</h2>
+
+          <p>
+            Share a few details and I will review recent comparable transactions,
+            competing listings and current buyer demand before getting back to you.
+          </p>
+
+          <div class="valuation-details">
+            <div class="valuation-item">
+              <span class="valuation-number">01</span>
+              <span>Recent transaction evidence</span>
+            </div>
+
+            <div class="valuation-item">
+              <span class="valuation-number">02</span>
+              <span>Current competing listings</span>
+            </div>
+
+            <div class="valuation-item">
+              <span class="valuation-number">03</span>
+              <span>Floor, facing, condition &amp; layout</span>
+            </div>
+
+            <div class="valuation-item">
+              <span class="valuation-number">04</span>
+              <span>Likely buyer pool &amp; positioning</span>
+            </div>
+          </div>
+
+          <p class="fine">
+            Indicative market discussion only. This is not a formal valuation
+            or appraisal by a licensed valuer.
+          </p>
+        </div>
+        <form id="valuation-form">
+          <h3>Tell me about your property</h3>
+          <label>Property type
+            <select name="type" required>
+              <option value="">Select one</option>
+              <option>HDB</option>
+              <option>Condominium / Apartment</option>
+              <option>Executive Condominium</option>
+              <option>Landed</option>
+              <option>Commercial / Other</option>
+            </select>
+          </label>
+          <label>Project, street or estate<input name="property" required></label>
+          <div class="two">
+            <label>Approx. size<input name="size" placeholder="e.g. 1,200 sqft"></label>
+            <label>Bedrooms<input name="beds"></label>
+          </div>
+          <div class="two">
+            <label>Your name<input name="name" required></label>
+            <label>Mobile number<input name="phone" required inputmode="tel"></label>
+          </div>
+          <label>Anything I should know?<textarea name="notes" rows="3"></textarea></label>
+          <button class="btn gold" type="submit">Request my property review</button>
+        </form>
+      </div>
+    </section>
+    <section class="block light" id="about">
+      <div class="shell about reveal">
+        <div class="about-photo"></div>
+        <div>
+          <div class="head-title">
+            <span class="section-tag">About Kasper</span>
+            <h2>Data when it matters. People always.</h2>
+            <p>I'm Kasper Toh, a Singapore real estate advisor with a Real Estate background from NUS and transaction
+              experience across HDB, condominium and landed homes.</br></br>
+
+              My approach is simple: understand what you are actually trying to achieve, pressure-test the numbers,
+              identify the trade-offs,
+              and execute the plan with clarity from marketing to negotiation and completion.</p>
+          </div>
+          <dl>
+            <div>
+              <dt>Agency</dt>
+              <dd>PropNex Realty</dd>
+            </div>
+            <div>
+              <dt>CEA registration</dt>
+              <dd>R068734E</dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:kaspertohera@gmail.com">kaspertohera@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt>WhatsApp</dt>
+              <dd><a href="https://wa.me/6592221935" target="_blank" rel="noreferrer">+65 9222 1935</a></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-shell">
+
+      <div class="footer-top">
+        <a href="#top" class="footer-brand">
+          <strong>KASPER</strong> TOH
+        </a>
+
+        <div class="footer-info">
+          <p>Singapore Real Estate · PropNex Realty</p>
+          <span>CEA Reg. No. R068734E</span>
+        </div>
+
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="mailto:kaspertohera@gmail.com">Email</a>
+          <a href="https://wa.me/6592221935" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="#top">Back to top ↑</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          Information on this website is for general informational purposes only
+          and does not constitute financial, legal or formal valuation advice.
+          <br>
+          Designed & Developed by shunnlaeeipaing
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <a class="wa" href="https://wa.me/6592221935" target="_blank" rel="noreferrer">WhatsApp</a>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
